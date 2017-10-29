@@ -1,0 +1,105 @@
+
+   p{
+ color:red;
+ font-size:20px
+    }
+    h5{
+ color:blue;
+     }
+	 h3{
+color:green; 
+	  }
+      h1{
+      color: red;
+       }
+       h2{
+       color: green;
+        }
+        u{
+        color: gold;
+         }
+         i{
+         color: gold;
+          }
+          b{
+          color: gold;
+           }
+           .asfli{
+           color: blue;
+            }
+            .asfp{
+            color: orange;
+             }
+             from{
+             color: white;
+              }
+             #background{
+             background-color: black;
+              }
+              .asfwrap{
+              height:300px;
+              sidth:450px;
+              border:5px dashed white;
+              padding-left: 40px;
+              margin-right: 40px;
+               }
+               .bbt{
+               color:red;
+               font-size: 40px;
+               text-decoration:underline;
+                }
+                .show{
+                color:blue;
+                font-size:40px;
+                text-decoration:underline;
+                 }
+                 .navitem{
+                 list-style-type:none;
+                 display:inline;
+                 padding-right:1.5em;
+                  }
+                  #navmenu {
+                  width:250px;
+                  height:30px;
+                  margin:auto;
+                   }
+ a:link{
+ color: white;
+} 
+a:link{ 
+color:red;
+} 
+
+a:visited{ 
+color:blue;
+} 
+a:hover{ 
+color:green;
+} 
+
+a:active{ 
+color:orange;
+}
+.leftfloat {
+float: left;
+ }
+ rightlofat {
+ float: right;
+  }
+                  /*postion.html css code-*/
+                 
+#one{
+height: 150px;
+width: 150px;
+background-color: red;
+}
+#two{
+height: 150px;
+width: 150px;
+background-color: blue;
+}
+#three{
+height: 150px;
+width: 150px;
+background-color: green;
+}
