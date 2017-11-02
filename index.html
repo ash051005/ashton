@@ -1,9 +1,35 @@
   <!doctype html>
   <html>
   <link type="text/css" rel="stylesheet" href="main.css" />
-    <head>
+	<a href="http://asfox.weebly.com" onclick="retun banner()">asf sport channeng</a>
+	<head">
+	<link rel="icon" href="asflogo3.png">
  <title>ASF Home</title>
+ </header>
+ <script>
+ 
+  function banner(){
+ var text = confirm("did you really want to click on my banner?");
+ return text;
+ }
+ < radio.length; i++) { 
+if(radio[i].value == "Yes" && radio[i].checked == true) { 
+selection = true; 
+} //end if statement 
+} //end for loop
+
+if(selection == true) {
+message = message + "<b><p style='color:green'>Way to go!</p></b>"; 
+} else { 
+message = message + "<b><p style='color:red'>Try again my friend.</p></b>"; 
+}
+document.getElementById("response").innerHTML = message;
+
+}
+ </script>
+ <a href="http://asfox.weebly.com"><header>asf sport challeng</header></a>
     </head>
+	</a>
     <body id="background">
 	<ul id="navmenu">
 <li> <a href="index.html"> Home </a> </li>
@@ -22,22 +48,28 @@
 <li>To Go To The Football Site Go to asfox.weebly.com<li>
 <li>We Are A Candy Store Aswell</li>
   </ol>
+  <div id="leftfloat">
   <div class="asfwrap">
 <h2>some <span class="bbt">big bang thery</span> <span class="show">show</span> trivia</h2>
   <from>
+  <div id="response"></div>
 <h2>Did Amey Say Yes To Sheldon To Get Mariod</h2> 
 <input type="radio" name="trivia" value="Yes">Yes<br>
 <input type="radio" name="trivia" value="No">No<br>
+<input type="button" name="submit" value="submit" onclick="answer"><br>
   </from>
   </div>
- <video width="400" weight="400" controls autoplay>
+  </div>
+  <div id="rightfloat">
+ <video width="400" weight="400" controls>
  <source src="http://www.w3schools.com/HTML/mov_bbb.mp4"
  type="video/mp4">
  </video>
-<audio width="400" height="220" controls autoplay>
+<audio width="400" height="220" controls>
 <source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mpeg">
 Your browser does not support HTML 5 audio.
 </audio>
+</div>
 <img src="luck.jpg"/>
 <img src="NFL.jpg"/>
 <hr>
